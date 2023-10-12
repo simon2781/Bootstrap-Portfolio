@@ -1,2 +1,44 @@
 .card-img-top {height: 300px auto;}
 
+.customNav {
+    
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  
+  .navbar-brand {
+    padding-right: 15px;
+    width: 65px;
+  }
+  
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  .navbar-nav:focus, .navbar-nav:hover {
+    color: red;
+    text-decoration: none;
+    background: yellowgreen;
+  }
+  
+  .customNav a {
+    color: white !important;
+  }
+  
+  .navCTA {
+    font-size: 15px;
+  }
+
+  .card {
+    background-image: url("/images/coverPhoto.jpeg");
+    background-repeat: no-repeat;
+    width: 100%;
+  }
