@@ -11,10 +11,14 @@ body {
 }
 
 .card {
-  height: 550px;
+  height: 100%;
+  
 }
 
 .buttonContact{font-size: 27px;}
+
+
+
 .jumbosi {
 
   background-color: antiquewhite;
@@ -28,7 +32,7 @@ body {
   text-align: center;
   justify-content: center;
   padding-top: 20px;
-  color: rgb(228, 228, 18);
+  color: rgb(94, 94, 15);
 }
 
 .sectionHeading {
@@ -45,6 +49,13 @@ body {
   
 
 }
+
+.card-body {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .customNav {
     
     width: 100%;
@@ -71,9 +82,14 @@ body {
     margin: 0px 15px;
   }
 
-  .nav-link {color: rgb(107, 186, 190);}
+  .card-img-top {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+  }
 
-  .navbar-nav:focus, .navbar-nav:hover {
+.nav-link {color: rgb(107, 186, 190);}
+
+.navbar-nav:focus, .navbar-nav:hover {
     color: whitesmoke;
     text-decoration: dashed;
     
@@ -96,10 +112,11 @@ body {
 
 .icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
   footer {
     color: rgb(0, 0, 0);
     text-align: center;
+    padding-bottom:15px;
   }
