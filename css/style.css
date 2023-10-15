@@ -1,17 +1,47 @@
+/* body */
+body {
+  background-color: black;
+}
+
+
 .card-img-top {height: 300px auto;}
 
+.jumbosi {
+  
+  background-color: antiquewhite;
+  text-align: center;
+  align-content: center;
+  padding: 30px;
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+  color: rgb(218, 218, 11);
+}
+
+.content {
+  color: rgb(218, 218, 11);
+  padding: 20px;
+
+}
 .customNav {
     
     width: 100%;
-    background: url("../images/transparency.png");
+    background-repeat: no-repeat;
     background-color: transparent !important;
     background-size: cover;
     z-index: 10;
+    padding-bottom: 20px;
   }
   
   .navbar-nav {
     margin-left: auto;
-    margin-right: 0;
+    margin-right: 0 !important;
+    font-size: 24px;
+    
   }
   
   .navbar-brand {
@@ -22,11 +52,13 @@
   .nav-item {
     margin: 0px 15px;
   }
-  
+
+  a:hover {color: cadetblue;}
+
   .navbar-nav:focus, .navbar-nav:hover {
-    color: red;
-    text-decoration: none;
-    background: yellowgreen;
+    color: whitesmoke;
+    text-decoration: dashed;
+    
   }
   
   .customNav a {
@@ -37,8 +69,6 @@
     font-size: 15px;
   }
 
-  .card {
-    background-image: url("/images/coverPhoto.jpeg");
-    background-repeat: no-repeat;
-    width: 100%;
+  footer {
+    text-align: center;
   }
