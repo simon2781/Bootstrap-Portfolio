@@ -14,16 +14,16 @@
  <nav class="navbar navbar-nav navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         
-      <a class="navbar-brand"><img  src="/images/Simon Milsom.png"> <h1>Simon Milsom</h1></a>
+      <a class="navbar-brand"><img  src="/images/Simon Milsom.png"> Simon Milsom</a>
       
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#cover">Home</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#profilePic">Profile</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="#work">Work</a>
           </li>
@@ -42,7 +42,7 @@
   <!-- cover photo-->
 
   <div class="customNav" id="cover">
-          <h1 class="card-title">Simon Milsom - Portfolio</h1>
+          <h1 class="mainTitle">Simon Milsom - Portfolio</h1>
     <div class="card-body" href="#profilePic">
       
     </div>
@@ -56,6 +56,7 @@
     <h1 class="display-5 fw-bold">Welcome to my portfolio!</h1>
     <p class="col-md-12 fs-4">I am a Web Developer looking to strengthen my skills work for a really cool company and make a difference!</p>
     <button class="btn btn-primary btn-lg" type="button" href="#about">Contact me!</button>
+    <a class="buttonContact" href="#about">Contact Me</a>
   </div>
 </div>
   
@@ -64,18 +65,17 @@
 
   
   <!-- Cards -->
-  <div class="container-fluid content">
-    <h3 class="sectionHeading">Previous work</h3>
+  <div class="container-fluid">
+    <h3 class="sectionHeading" id="work">Take a look at my work</h3>
     <div class="row showsNear">
       <!-- Card 1 -->
       <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
         <div class="card">
-          <img src="/images/Challenge1.png" class="card-img-top" alt="...">
+          <img src="/images/Challenge1.png" class="card-img-top" alt="Challenge">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">Refactoring Challenge</h5>
+            <p class="card-text">For this project I had to refactor the code to align with accessibility settings.</p>
+            <a class="btn btn-primary" href="https://simon2781.github.io/challenge1/" target="blank_">Go to Project</a>
           </div>
         </div>
       </div>
@@ -84,12 +84,13 @@
       <!-- Card 2 -->
       <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
         <div class="card">
-          <img src="/images/portfolio basic.png" class="card-img-top" alt="...">
+          <img src="/images/portfolio basic.png" class="card-img-top" alt="Basic-portfolio">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">Basic Portfolio</h5>
+            <p class="card-text">In this project I have made a basic portfolio using HTML and CSS,
+               I particularly enjoyed this challenge as it was my first eye opening experience to
+                see what can be created using HTML and CSS, and using CSS Grid - pure magic!</p>
+            <a class="btn btn-primary" href="https://simon2781.github.io/Simon-s-Portfolio/" target="blank_">Go to Project</a>
           </div>
         </div>
       </div>
@@ -98,12 +99,14 @@
       <!-- Card 3 -->
       <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
         <div class="card">
-          <img src="images/show3.jpg" class="card-img-top" alt="...">
+          <img src="images/bootstrap-portfolio.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">My own domain</h5>
+            <p class="card-text">This is a link to my own domain where I will constantly update my work with
+              all the new skills I am learning, I hope to use this as a show off of my skills and learning journey!
+               I built this page using HTML and CSS and utilised the Bootstrap Framework.
+            </p>
+            <a href="https://simonmilsom.dev/" target="blank_" class="btn btn-primary">My Homepage</a>
           </div>
         </div>
       </div>
@@ -111,17 +114,36 @@
 
   <!--Skills section-->
 
+  
 
 <section id="skills">
-  <h3>Skills</h3>
+  <h3 class="sectionHeading">Skills</h3>
+    <p class="paraGraph">
+      Although I am very new to Front end web development I am enjoying the challenge so much, 
+      I have made a few projects, one of which is a refactoring challenge, in this project I used 
+      code that was already in place for a website and modified the sections and layout to be more pleasing to the 
+      eye, it is also in line with current accessibility rules and screenreaders for the hard of sight.
+    </p>
+    <p class="paraGraph">
+      My second project was to make a basic Website where I utilised HTML, CSS and CSS grid 
+      to make a Portfolio for myself to showcase my work. I particularly enjoyed this as it was my first 
+      encounter with CSS Grid and I loved it!
+    </p>
+    <p class="paraGraph">
+      You are currently reading my third Project, It is a Portfolio website utilising HTML, CSS and using the Framework 
+      Bootstrap to arrange my page and use attributes to style my page. I am very excited to see what else I 
+      can do in my Front end web development journey!  
+    </p>
 </section>
+
+<hr style="color: antiquewhite;">
 
 <section id="about">
-  <h3>About - Contact Me</h3>
+  <h3 class="sectionHeading">About - Contact Me</h3>
 </section>
 
-
-
+<!-- End of skills seciton -->
+<hr style="color: antiquewhite;">
  
 <!-- Footer section -->
 
