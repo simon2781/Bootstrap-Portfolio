@@ -16,11 +16,11 @@ git clone https://github.com/simon2781/Bootstrap-Portfolio.git
 
 I have decided to use my own person website address for this Project, to view the current working page please go to:
 
-https://simonmilsom.dev
+https://www.simonmilsom.dev
 
-It is also hosted via GitHub pages at:
+This is my previously deployed portfolio:
 
-https://simon2781.github.io/Bootstrap-Portfolio/
+https://simon2781.github.io/Simon-s-Portfolio/
 
 
 # screenshot
@@ -57,8 +57,10 @@ https://github.com/simon2781/Bootstrap-Portfolio
 Hosted at
 https://simonmilsom.dev
 
-GitHub Page:
-https://simon2781.github.io/Bootstrap-Portfolio/
+This i smy previously deplyed apllication:
+
+https://simon2781.github.io/Simon-s-Portfolio/
 
 # Acknowledgement
+
 I used www.w3schoolshttps://www.w3schools.com/ to find out some styling inspiration and implementate them into my code.
