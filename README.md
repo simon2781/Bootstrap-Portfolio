@@ -57,7 +57,7 @@ https://github.com/simon2781/Bootstrap-Portfolio
 Hosted at
 https://simonmilsom.dev
 
-This i smy previously deplyed apllication:
+This i smy previously deployed application:
 
 https://simon2781.github.io/Simon-s-Portfolio/
 
