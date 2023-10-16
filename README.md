@@ -19,6 +19,7 @@ I have decided to use my own person website address for this Project, to view th
 https://simonmilsom.dev
 
 It is also hosted via GitHub pages at:
+
 https://simon2781.github.io/Bootstrap-Portfolio/
 
 
@@ -43,7 +44,9 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 # Contact Links
 Simon Milsom - X (Formally Twitter) @simon2781m - https://twitter.com/simon2781m
+
 LinkedIn: https://www.linkedin.com/in/simon-milsom/
+
 Email: simon2781@gmail.com
 
 # Project Link: 
