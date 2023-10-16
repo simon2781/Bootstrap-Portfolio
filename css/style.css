@@ -4,7 +4,7 @@ body {
 }
 
 .mainTitle {
-  color:rgb(158, 147, 147);
+  color: rgb(158, 147, 147);
   text-align: center;
   justify-content: center;
   padding-top: 20px;
@@ -12,10 +12,12 @@ body {
 
 .card {
   height: 100%;
-  
+
 }
 
-.buttonContact{font-size: 27px;}
+.buttonContact {
+  font-size: 27px;
+}
 
 
 
@@ -46,59 +48,62 @@ body {
 .content {
   color: rgb(206, 206, 180);
   padding: 20px;
-  
+
 
 }
 
 .card-body {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .customNav {
-    
-    width: 100%;
-    background-repeat: no-repeat;
-    background-color: transparent !important;
-    background-size: cover;
-    z-index: 10;
-    padding-bottom: 20px;
-  }
-  
-  .navbar-nav {
-    margin-left: auto;
-    margin-right: 0 !important;
-    font-size: 24px;
-    
-  }
-  
-  .navbar-brand {
-    padding-right: 15px;
-    width: 65px;
-  }
-  
-  .nav-item {
-    margin: 0px 15px;
-  }
 
-  .card-img-top {
-    aspect-ratio: 16/9;
-    object-fit: cover;
-  }
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+  padding-bottom: 20px;
+}
 
-.nav-link {color: rgb(107, 186, 190);}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+  font-size: 24px;
 
-.navbar-nav:focus, .navbar-nav:hover {
-    color: whitesmoke;
-    text-decoration: dashed;
-    
-  }
-  
-  .customNav a {
-    color: white !important;
-  }
-  
+}
+
+.navbar-brand {
+  padding-right: 15px;
+  width: 65px;
+}
+
+.nav-item {
+  margin: 0px 15px;
+}
+
+.card-img-top {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.nav-link {
+  color: rgb(107, 186, 190);
+}
+
+.navbar-nav:focus,
+.navbar-nav:hover {
+  color: whitesmoke;
+  text-decoration: dashed;
+
+}
+
+.customNav a {
+  color: white !important;
+}
+
 
 .paraGraph {
   color: rgb(243, 248, 243);
@@ -107,7 +112,7 @@ body {
 
 #aboutTe {
   background-color: rgb(255, 255, 255);
-  text-align:center;
+  text-align: center;
 }
 
 .icons {
@@ -115,17 +120,17 @@ body {
   justify-content: space-evenly;
 }
 
-  footer {
-    color: rgb(0, 0, 0);
-    text-align: right;
-    padding-top: 30px;
-    padding-bottom:15px;
-  }
+footer {
+  color: rgb(0, 0, 0);
+  text-align: right;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
 
-  .button2:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  }
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
-  a:hover {
-    color: red;
+a:hover {
+  color: red;
 }
